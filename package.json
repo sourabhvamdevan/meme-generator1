@@ -1,11 +1,14 @@
 {
   "name": "vite-react-typescript-starter",
+  "homepage": "https://sourabhvamdevan.github.io/meme-generator1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
